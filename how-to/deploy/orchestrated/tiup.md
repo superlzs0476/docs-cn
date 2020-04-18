@@ -1358,19 +1358,19 @@ v3.0.8                    2020-03-17T14:03:29.575448277+08:00  linux/amd64,darwi
 v3.0.9                    2020-03-13T13:02:15.947260351+08:00  linux/amd64,darwin/amd64
 v3.0.10                   2020-03-13T14:11:53.774527401+08:00  linux/amd64,darwin/amd64
 v3.0.11                   2020-03-13T15:31:06.94547891+08:00   linux/amd64,darwin/amd64
-v3.0.12        YES        2020-03-20T11:36:28.18950808+08:00   linux/amd64,darwin/amd64
+v3.0.12                   2020-03-20T11:36:28.18950808+08:00   linux/amd64,darwin/amd64
 v3.1.0-beta.2             2020-03-19T00:48:48.266468238+08:00  linux/amd64,darwin/amd64
 v3.1.0-rc                 2020-04-02T23:43:17.456327834+08:00  linux/amd64,darwin/amd64
 v4.0.0-beta               2020-03-13T12:43:55.508190493+08:00  linux/amd64,darwin/amd64
 v4.0.0-beta.1             2020-03-13T12:30:08.913759828+08:00  linux/amd64,darwin/amd64
-v4.0.0-beta.2  YES        2020-03-18T22:52:00.830626492+08:00  linux/amd64,darwin/amd64
-v4.0.0-rc                 2020-04-09T00:10:32+08:00            linux/amd64,darwin/amd64
+v4.0.0-beta.2             2020-03-18T22:52:00.830626492+08:00  linux/amd64,darwin/amd64
+v4.0.0-rc      YES        2020-04-09T00:10:32+08:00            linux/amd64,darwin/amd64
 nightly                   2020-04-10T08:42:23+08:00            darwin/amd64,linux/amd64
 ```
 
-### 如何查看 TiUP 支持管理的组件和版本
+### 如何查看 TiUP 支持管理的组件
 
-执行如下命令查看 TiUP 支持管理的组件和版本：
+执行如下命令：
 
 ```shell
 tiup list
@@ -1382,9 +1382,9 @@ tiup list
 Available components (Last Modified: 2020-02-27T15:20:35+08:00):
 Name               Installed                                                                                                             Platforms                 Description
 ----               ---------                                                                                                             ---------                 -----------
-tidb               YES(v3.0.12,v4.0.0-rc)                                                                                            darwin/amd64,linux/amd64  TiDB is an open source distributed HTAP database compatible with the MySQL protocol
-tikv               YES(v3.0.12,v4.0.0-rc)                                                                                            darwin/amd64,linux/amd64  Distributed transactional key-value database, originally created to complement TiDB
-pd                 YES(v3.0.12,v4.0.0-rc)                                                                                            darwin/amd64,linux/amd64  PD is the abbreviation for Placement Driver. It is used to manage and schedule the TiKV cluster
+tidb               YES(v4.0.0-rc)                                                                                            darwin/amd64,linux/amd64  TiDB is an open source distributed HTAP database compatible with the MySQL protocol
+tikv               YES(v4.0.0-rc)                                                                                            darwin/amd64,linux/amd64  Distributed transactional key-value database, originally created to complement TiDB
+pd                 YES(v4.0.0-rc)                                                                                            darwin/amd64,linux/amd64  PD is the abbreviation for Placement Driver. It is used to manage and schedule the TiKV cluster
 playground         YES(v0.0.5)                                                                                                           darwin/amd64,linux/amd64  Bootstrap a local TiDB cluster
 client                                                                                                                                   darwin/amd64,linux/amd64  A simple mysql client to connect TiDB
 prometheus                                                                                                                               darwin/amd64,linux/amd64  The Prometheus monitoring system and time series database.
